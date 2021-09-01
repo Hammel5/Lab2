@@ -35,9 +35,11 @@ int main()
 	
 }
 
-int main()
+int main2()
 {
 	//Checkerboard Printout
 	const string s = " ";
 	const string d = "*";
+	cout << d << s << d << s;
+	return 0;
 }
