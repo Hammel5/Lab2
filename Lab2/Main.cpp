@@ -32,5 +32,12 @@ int main()
 	cout << th << "\t" << sct << "\t" << scn << endl;
 	cout << th << "\t" << tct << "\t" << tcn << endl;
 	cout << f << "\t" << "\t" << tct << "\t" << tcn << endl;
+	
+}
 
+int main()
+{
+	//Checkerboard Printout
+	const string s = " ";
+	const string d = "*";
 }
