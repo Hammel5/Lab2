@@ -32,14 +32,16 @@ int main()
 	cout << th << "\t" << sct << "\t" << scn << endl;
 	cout << th << "\t" << tct << "\t" << tcn << endl;
 	cout << f << "\t" << "\t" << tct << "\t" << tcn << endl;
-	
-}
+	cout << endl;
 
-int main2()
-{
-	//Checkerboard Printout
-	const string s = " ";
-	const string d = "*";
-	cout << d << s << d << s;
+	//Checkerboard Patten Code
+	const string s = "  "; // Blank Spaces
+	const string d = " *"; // The Dot Spaces 
+	cout << s << d << s << d << s << d << s << d << s << endl;
+	cout << s << s << d << s << d << s << d << s << d << endl;
+	cout << s << d << s << d << s << d << s << d << s << endl;
+	cout << s << s << d << s << d << s << d << s << d << endl;
+
 	return 0;
+	
 }
