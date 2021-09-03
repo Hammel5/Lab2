@@ -20,9 +20,9 @@ int main()
 	const string fct = "8:00";
 	const string sct = "8:20";
 	const string tct = "10:00";
-	const string fcn = "American National Government"; 
-	const string scn = "Python Programming";
-	const string tcn = "C++";
+	const string fcn = "American National Government POL-111"; 
+	const string scn = "Python Programming CIS-189";
+	const string tcn = "C++ CIS-162";
 	cout << m << "\t" << "\t" << fct << "\t" << fcn << endl;
 	cout << m << "\t" << "\t" << tct << "\t" << tcn << endl;
 	cout << tu << "\t" << "\t" << sct << "\t" << scn << endl;
