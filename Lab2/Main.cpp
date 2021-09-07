@@ -23,15 +23,15 @@ int main()
 	const string fcn = "American National Government POL-111"; 
 	const string scn = "Python Programming CIS-189";
 	const string tcn = "C++ CIS-162";
-	cout << m << "\t" << "\t" << fct << "\t" << fcn << endl;
-	cout << m << "\t" << "\t" << tct << "\t" << tcn << endl;
-	cout << tu << "\t" << "\t" << sct << "\t" << scn << endl;
-	cout << tu << "\t" << "\t" << tct << "\t" << tcn << endl;
-	cout << w << "\t" << fct << "\t" << fcn << endl;
-	cout << w << "\t" << tct << "\t" << tcn << endl;
-	cout << th << "\t" << sct << "\t" << scn << endl;
-	cout << th << "\t" << tct << "\t" << tcn << endl;
-	cout << f << "\t" << "\t" << tct << "\t" << tcn << endl;
+	cout << m << "\t" << "\t" << fct << "\t" << "\t" << fcn << endl;
+	cout << m << "\t" << "\t" << tct << "\t" << "\t" << tcn << endl;
+	cout << tu << "\t" << "\t" << sct << "\t" << "\t" << scn << endl;
+	cout << tu << "\t" << "\t" << tct << "\t" << "\t" << tcn << endl;
+	cout << w << "\t" << fct << "\t" << "\t" << fcn << endl;
+	cout << w << "\t" << tct << "\t" << "\t" << tcn << endl;
+	cout << th << "\t" << sct << "\t" << "\t" << scn << endl;
+	cout << th << "\t" << tct << "\t" << "\t" << tcn << endl;
+	cout << f << "\t" << "\t" << tct << "\t" << "\t" << tcn << endl;
 	cout << endl;
 
 	//Checkerboard Patten Code
@@ -42,6 +42,5 @@ int main()
 	cout << s << d << s << d << s << d << s << d << s << endl;
 	cout << s << s << d << s << d << s << d << s << d << endl;
 
-	return 0;
-	
+	return 0;	
 }
